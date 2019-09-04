@@ -61,6 +61,8 @@ function App() {
           rounded={5}
           accentColor={accentColor}
           CustomHelper={customComps ? MyCustomHelper : null}
+          showArrow
+          arrowSize={25}
         />
       </Suspense>
     </div>
